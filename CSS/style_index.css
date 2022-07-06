@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    padding: 0px 200px 0px 200px;
+}
+
+section {
+display: flex;
+height: 100%;
+}
+
+aside{
+
+    height: 100%;
+    flex:36%;
+    margin:0 ;
+    background-color: #043442;
+}
+
+article{
+    padding:13px;
+    margin-top: 0;
+    padding-top: 0;
+    height: 100%;
+flex:64%;
+background-color: #e5e7e7;
+
+}
+footer {
+    clear: both;			
+}
+
+#pp{
+    margin: 20px;
+    width:190px ;
+    height:200px ;
+}
+
+.data {
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+    color: #e5e7e7;
+}
+.title{
+    font-size: 18px;
+    color:teal;
+    text-align: center  ;
+}
+H3{
+    margin-inline-start: 150px;
+    font-size: 30px;
+    color:teal ;
+}
+h6{
+    color: black;
+    margin-inline-start: 150px;
+
+}
+article .title{
+    font-size: 18px;
+    color:#043442;
+    text-align: center  ;
+}
+.u_title{
+    color:teal;
+}
