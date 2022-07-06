@@ -2,19 +2,24 @@
 body{
     margin: 0;
     padding: 0px 200px 0px 200px;
+    height: auto;
 }
 
 section {
 display: flex;
 height: 100%;
+
 }
 
 aside{
 
     height: 100%;
     flex:36%;
-    margin:0 ;
+    margin-top: 0;
+    padding-top: 0;
     background-color: #043442;
+    box-sizing: border-box;
+
 }
 
 article{
@@ -24,6 +29,8 @@ article{
     height: 100%;
 flex:64%;
 background-color: #e5e7e7;
+box-sizing: border-box;
+
 
 }
 footer {
